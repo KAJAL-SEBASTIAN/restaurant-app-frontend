@@ -1,0 +1,41 @@
+/* RestListGroup.css */
+
+.RestListGroup {
+    background-color: #918d8d;
+    border: 1px solid #ced4da;
+    border-radius: 8px;
+    padding: 20px;
+  }
+  
+  .RestListGroupItem {
+    border: none;
+  }
+  
+  .RestListGroupItem:hover {
+    background-color: #888a8b;
+    cursor: pointer;
+  }
+  
+  .RestListGroupItem:first-child {
+    border-top-left-radius: 8px;
+    border-top-right-radius: 8px;
+  }
+  
+  .RestListGroupItem:last-child {
+    border-bottom-left-radius: 8px;
+    border-bottom-right-radius: 8px;
+  }
+  
+  .RestListGroupItem:not(:last-child) {
+    border-bottom: 1px solid #ced4da;
+  }
+  
+  .RestListGroupItem.active {
+    background-color: #007bff;
+    color: #fff;
+  }
+  
+  .RestListGroupItem.active:hover {
+    background-color: #0056b3;
+  }
+  
